@@ -520,12 +520,12 @@ nav div a:link {
 
 .body-top-sec {
     width: 100%;
-    height: 25vw;
-    color: rgba(255, 255, 255, 0.733);
-    background-image: linear-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 255, 0.4)),
-        url(../imgs/general/home-header-bkgrnd.png);
-    background-size: cover;
-    background-position: initial;
+    /* height: 25vw; */
+    /* color: rgba(255, 255, 255, 0.733); */
+    /* background-image: linear-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 255, 0.4)), */
+        /* url(../imgs/general/home-header-bkgrnd.png); */
+    /* background-size: cover; */
+    /* background-position: initial; */
     border-bottom: 2px solid black;
 }
 
@@ -597,6 +597,30 @@ nav div a:link {
 .body-sec {
     margin: 0 auto;
     padding: 1% 0;
+}
+
+/* carousel code */
+
+.carousel-item {
+    height: auto;
+    float: none;
+    color: white;
+    position: relative;
+}
+
+.carousel-item .container {
+    padding: 2px;
+}
+
+.carousel-item-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item-flex img {
+    width: auto;
+    height: 25rem;
 }
 
 .who-are-we-div {

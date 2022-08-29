@@ -157,11 +157,11 @@
 
 
                             </div>
-                            <div class="carousel-inner">
+                            <div class="carousel-inner carousel-inner-research">
 
-                                <div class="carousel-item some-random-var">
+                                <div class="carousel-item carousel-item-reseach some-random-var">
                                     <img src="./imgs/research/research_gallery/Cu-Sn.jpg"
-                                        class="d-block w-100 slideshow-img" alt="Cu-Sn">
+                                        class="d-block w-50 slideshow-img" alt="Cu-Sn">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h5>
                                             Cu-Sn
@@ -169,7 +169,7 @@
                                     </div>
                                 </div>
 
-                                <div class="carousel-item some-random-var">
+                                <div class="carousel-item carousel-item-reseach some-random-var">
                                     <img src="./imgs/research/research_gallery/Mica-and-luicite-based-glass-ceramics.png"
                                         class="d-block w-100 slideshow-img" alt="Mica and leucite based Glass Ceramics">
                                     <div class="carousel-caption d-none d-md-block">
@@ -179,7 +179,7 @@
                                     </div>
                                 </div>
 
-                                <div class="carousel-item some-random-var">
+                                <div class="carousel-item carousel-item-reseach some-random-var">
                                     <img src="./imgs/research/research_gallery/glass-ceramics.png"
                                         class="d-block w-100 slideshow-img" alt="Glass Ceramics">
                                     <div class="carousel-caption d-none d-md-block">
@@ -189,7 +189,7 @@
                                     </div>
                                 </div>
 
-                                <div class="carousel-item some-random-var">
+                                <div class="carousel-item carousel-item-reseach some-random-var">
                                     <img src="./imgs/research/research_gallery/ceramic-composite.jpg"
                                         class="d-block w-100 slideshow-img" alt="Ceramic Composites">
                                     <div class="carousel-caption d-none d-md-block">
@@ -199,7 +199,7 @@
                                     </div>
                                 </div>
 
-                                <div class="carousel-item some-random-var">
+                                <div class="carousel-item carousel-item-reseach some-random-var">
                                     <img src="./imgs/research/research_gallery/cryo-rolling-of-CP- Aluminium.png"
                                         class="d-block w-100 slideshow-img" alt="Cryo-rolling of CP-Al">
                                     <div class="carousel-caption d-none d-md-block">
@@ -209,7 +209,7 @@
                                     </div>
                                 </div>
 
-                                <div class="carousel-item some-random-var">
+                                <div class="carousel-item carousel-item-reseach some-random-var">
                                     <img src="./imgs/research/research_gallery/Additive-Manufacturing.png"
                                         class="d-block w-100 slideshow-img" alt="AM over different metallic systems">
                                     <div class="carousel-caption d-none d-md-block">
@@ -219,7 +219,7 @@
                                     </div>
                                 </div>
 
-                                <div class="carousel-item some-random-var">
+                                <div class="carousel-item carousel-item-reseach some-random-var">
                                     <img src="./imgs/research/research_gallery/Titanium-alloy.png"
                                         class="d-block w-100 slideshow-img" alt="Ti alloy">
                                     <div class="carousel-caption d-none d-md-block">
@@ -229,7 +229,7 @@
                                     </div>
                                 </div>
 
-                                <div class="carousel-item some-random-var">
+                                <div class="carousel-item carousel-item-reseach some-random-var">
                                     <img src="./imgs/research/research_gallery/Aluminium-alloy.jpg"
                                         class="d-block w-100 slideshow-img" alt="Al alloy">
                                     <div class="carousel-caption d-none d-md-block">
@@ -239,7 +239,7 @@
                                     </div>
                                 </div>
 
-                                <div class="carousel-item some-random-var">
+                                <div class="carousel-item carousel-item-reseach some-random-var">
                                     <img src="./imgs/research/research_gallery/Shear-Banding.png"
                                         class="d-block w-100 slideshow-img" alt="Shear Banding">
                                     <div class="carousel-caption d-none d-md-block">
@@ -249,7 +249,7 @@
                                     </div>
                                 </div>
 
-                                <div class="carousel-item some-random-var">
+                                <div class="carousel-item carousel-item-reseach some-random-var">
                                     <img src="./imgs/research/research_gallery/2-point-statistics-for-Ti-alloy.png"
                                         class="d-block w-100 slideshow-img" alt="Two-point statistics for Ti alloy">
                                     <div class="carousel-caption d-none d-md-block">
@@ -861,31 +861,44 @@
         firstBtn.className += " active"
     </script>
     <style>
+        .carousel-inner-research {
+            overflow-y: hidden !important;
+            height: 37rem !important;
+        }
+
+        .carousel-research {
+            height: 40rem;
+            background-color: white;
+        }
+
         .slideshow-img {
             display: block;
             width: 40% !important;
             min-height: 500px;
-            /* padding: 50px; */
+            height: 30rem;
             margin: 1% auto 7%;
+            border-radius: 20px;
             outline: solid black 3px;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
+            padding: 10px;
+            background-color: white;
         }
 
-        .carousel-item .active {
+        .carousel-item-research .active {
             background-color: white !important;
+            height: 20rem;
+            padding: 10px;
         }
 
         .carousel-caption h5 {
             width: 57.1%;
             padding: 15px;
-            margin: 1% auto;
+            margin: 7.8% auto -7.8%;
             color: black;
-            font-size: 1.7em;
+            font-size: 1.5em;
             background-color: lightblue;
             outline: solid black 3px;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
         }
     </style>
 

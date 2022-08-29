@@ -326,9 +326,9 @@ nav a:focus {
     text-decoration: none;
 }
 
-.active {
-    background-color: #289ccd;
-}
+/* .active { */
+    /* background-color: #289ccd; */
+/* } */
 
 /* code for hidden nav dropdown */
 
@@ -681,14 +681,14 @@ nav div a:link {
     overflow: hidden;
 }
 
-.carousel-item {
+.carousel-item-home {
     height: auto;
     float: none;
     color: white;
     position: relative;
 }
 
-.carousel-item .container {
+.carousel-item-home .container {
     padding: 2px;
 }
 

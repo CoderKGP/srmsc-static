@@ -601,6 +601,16 @@ nav div a:link {
 
 /* carousel code */
 
+.carousel-container-section {
+    height: 25rem !important;
+    overflow-y: hidden;
+}
+
+#myCarousel {
+    height: 25rem !important;
+    overflow: hidden;
+}
+
 .carousel-item {
     height: auto;
     float: none;
@@ -620,16 +630,7 @@ nav div a:link {
 
 .carousel-item-flex img {
     width: auto;
-    height: 25rem;
-}
-
-.who-are-we-div {
-    width: 98%;
-    margin: 0 auto;
-    background-color: rgb(197, 229, 240);
-    padding: 0;
-    border: solid #003449 5px;
-    border-radius: 5px;
+    height: 25rem !important;
 }
 
 .who-are-we-div h2 {
